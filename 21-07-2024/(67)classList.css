@@ -1,0 +1,19 @@
+.reached{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.touched{
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(180, 92%, 65%);
+    color:white;
+}
+.disabled{
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color:white;
+}

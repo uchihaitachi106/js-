@@ -1,0 +1,59 @@
+/* button{
+    font-size: 4rem;
+    display: grid;
+}  */
+button{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    margin:5px;
+    color:white;
+    background-color: hsl(0, 0%, 15%);
+    border:none;
+    font-size: 3rem;
+    text-align: center;
+    /* display:grid; */
+    /* grid-template-columns: repeat(4,1fr); */
+}
+button:hover{
+    background-color: hsl(0, 0%, 20%);
+}
+button:active{
+    background-color:hsl(0, 0%, 25%)
+}
+#buttons{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: hsl(0, 0%, 5%);
+}
+#calculator{
+    width: 500px;;
+    font-size: 5rem;
+    text-align: left;
+    background-color: hsl(0, 0%, 0%);
+    overflow: hidden;
+    border-radius: 15px;
+    border: none;
+}
+#display{
+    width:100%;
+    background-color: hsl(0, 0%, 10%);
+    border:none;
+    font-size: 5rem;
+    color:white;
+}
+body{
+    display:flex;/* if we dont use flesx the below two wont work*/
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.operator{
+    background-color: hsl(39, 100%, 40%);
+}
+.operator:hover{
+    background-color: hsl(39, 100%, 50%);
+}
+.operator:active{
+    background-color: hsl(39, 100%, 60%);
+}

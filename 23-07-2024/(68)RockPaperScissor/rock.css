@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+button{
+    font-size: 3.5rem;
+    margin:10px;
+    padding: 0px;
+    border-radius: 25000px;
+    text-align: center;
+    background-color: hsl(192, 86%, 42%);
+    min-width:75px;
+}
+#choices{
+    margin-bottom: 30px;
+}
+#player{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+#Computer{
+    font-size:2rem;
+    margin-bottom:10px;
+
+}
+#result{
+    margin-bottom:10px;
+    font-size:2rem;
+}
+h1{
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 30px;
+    font-size:3rem;
+}
+.red{
+    color:tomato;
+}
+.green{
+    color:green;
+}
+

@@ -1,0 +1,37 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 22%, 87%);
+}
+#myh1{
+    font-size: 4rem;
+    color: hsl(0, 0%, 20%);
+}
+#display{
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color:hsl(0, 0%, 20%);
+    text-shadow: 2px 2px 2px color;
+}
+#controls button{/* struggling to make space betwee buttons So mentioned buttons*/    
+    margin: 10px;
+    padding:10px 20px;
+    min-width: 50px;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+#start{
+    background-color:hsl(118, 85%, 21%);
+    border:none;
+}
+#stop{
+    background-color: hsl(0, 100%, 60%);
+    border: none;
+}
+#reset{
+    background-color: hsl(60, 100%, 30%);
+    border:none;
+}

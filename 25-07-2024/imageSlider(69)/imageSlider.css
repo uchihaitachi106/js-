@@ -1,0 +1,15 @@
+.slider{
+    position:relative;
+    width: 100%;
+    margin:auto;
+
+}
+.slider img{
+    width: 100%;
+    display : none;
+}
+img.display 
+{
+    display:block;
+}
+/*did not prepend display with image

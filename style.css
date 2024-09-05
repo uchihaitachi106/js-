@@ -1,0 +1,66 @@
+/* css for counter()
+#mylabel{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+}
+#buttonContainer{
+    text-align: center;
+}
+/* #decreaseBtn{
+    padding: 10px;
+    color:white ;
+    background-color:  */
+    /* i did not specify using id of each button 
+    bcoz we need to create 3 hover for 3 buttons */
+    /* so we created a common class for buttons */
+/* 
+.button{
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    background-color:rgba(70, 199, 199, 0.829);
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+    transition: .25s;
+}   
+.button:hover{
+    background-color:rgb(2, 138, 138);
+}   */
+
+/* random number generator
+#container{
+    display: block;
+    /* take away:text align dont work on buttons */
+    /* text-align: center;
+}
+#roll{
+    font-size:3em;
+    color:hsl(180, 100%, 95%);
+    background-color: rgba(89, 221, 221, 0.822);
+    cursor:pointer;
+}
+#roll:hover{
+    background-color: rgba(5, 155, 155, 0.822);
+}
+.n{
+    font-size: 2em;
+    padding:5px;
+} */ 
+ #schedule{
+    font-size:2em;
+    padding: 10px;
+ }
+ #submit{
+    cursor:pointer;
+    background-color: hsl(167, 85%, 60%);
+    color:aliceblue;
+    font-size: 2em;
+    border-radius: 5px;
+    padding:5px 5px;
+ }
+ #submit:hover{
+    background-color:hsl(221, 92%, 28%) ;
+ }
+

@@ -1,0 +1,33 @@
+#container{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-size: 1.5rem;
+    width: 150px;
+}
+#box{
+    display: block;
+    text-align: center;
+}
+button{
+    padding:10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:hsl(199, 94%, 55%);
+    text-align: center;
+    cursor:pointer;
+}
+button:hover{
+    background-color:hsl(199, 94%, 65%);
+}
+button:active{
+    background-color:hsl(199, 94%, 75%);
+}
+#Diceimages{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    display:inline;
+}
